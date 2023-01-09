@@ -1,0 +1,115 @@
+:root{
+    --white_color: white;
+    --grey_color: rgb(36,36,36,1);
+    --sky_blue: rgb(24, 119, 242);
+    --mediun_size_text: 14px;
+    --green_color: #1fdf64;
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+}
+#general_container{
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    margin-top: 2%;
+}
+
+#general_container h3{
+    text-align: center;
+}
+#other_text{
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+
+#login_social_media_buttons_container{
+    padding: 1%;
+    
+}
+
+.btn_social_media {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 5vh;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.btn_social_media img{
+    width: 24px;
+    height: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.btn_social_media p{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+#btn_facebook{
+    background-color: var(--sky_blue);
+    color: var(--white_color);
+}
+
+#btn_apple{
+    background-color: var(--grey_color);
+    color: var(--white_color);
+}
+#btn_google{
+    background-color: whitesmoke;
+    border-color: var(--grey_color);
+    color: var(--grey_color);
+}
+
+#divider_container{
+    display: flex;
+    background-color: transparent;
+}
+
+#forms_container{
+    background-color:transparent;
+    width: 100%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flexbox;
+    
+}
+
+#forms_container h5{
+    margin-top: 5%;
+}
+#btn_login{
+    width: 80%;
+    background-color: var(--green_color);
+    color: var(--white_color);
+    margin-left: 10%;
+    margin-right: 10%;
+    color: var(--grey_color);
+    margin-top: 2%;
+}
+
+#btn_register{
+    background-color: var(--white_color);
+    border-color: var(--grey_color);
+    color: var(--grey_color);
+    height: 8vh;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media  screen and (max-width: 810px) {
+    #general_container{
+        width: 90%;
+    }
+}
